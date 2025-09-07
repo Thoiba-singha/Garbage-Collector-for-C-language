@@ -1,0 +1,57 @@
+
+# CMake build directories
+/build/
+/CMakeFiles/
+/cmake_install.cmake
+/Makefile
+/*.sln
+/*.vcxproj*
+/*.dir/
+/out
+/.vs
+.vs
+build
+vs
+# Visual Studio generated files
+*.user
+*.userosscache
+*.suo
+*.VC.db
+*.VC.VC.opendb
+*.ipch
+*.opensdf
+*.sdf
+
+# Object and binary files
+*.obj
+*.o
+*.lo
+*.la
+*.lib
+*.dll
+*.exe
+*.ilk
+*.pdb
+*.idb
+*.exp
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Compiled Static libraries
+*.a
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Backup files
+*~
+
+# Ignore the build artifacts
+/bin/
+/lib/
