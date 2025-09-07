@@ -3,7 +3,7 @@
 RAII-Based Automatic Memory Management Solution for C Language
 
 ## 📖 Overview
-`gc_malloc` `gc_calloc` are custom automatic memory management function for the C language, offering safe, robust, and leak-free memory allocation routines. The backend is implemented in modern C++ leveraging **RAII (Resource Acquisition Is Initialization)** principles to ensure automatic deallocation of allocated memory without manual `free` calls on the C language client side.
+`gc_malloc` `gc_calloc` are custom automatic memory management functions for the C language, offering safe, robust, and leak-free memory allocation routines. The backend is implemented in modern C++ leveraging **RAII (Resource Acquisition Is Initialization)** principles to ensure automatic deallocation of allocated memory without manual `free` calls on the C language client side.
 
 This library provides C-compatible interfaces for:
 - `gc_malloc` — Safe memory allocation || Pure RAII, NO REALLOC SUPPORTED.
